@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA6BEF822D5969D9008711A2 /* ParseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AA6BEF812D5969D9008711A2 /* ParseSwift */; };
+		AA6BEF842D596BB2008711A2 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = AA6BEF832D596BB2008711A2 /* AlamofireImage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA6BEF162D595B21008711A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA6BEEF72D595B16008711A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA6BEEFE2D595B16008711A2;
+			remoteInfo = BeRealClone;
+		};
+		AA6BEF202D595B21008711A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA6BEEF72D595B16008711A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA6BEEFE2D595B16008711A2;
+			remoteInfo = BeRealClone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA6BEEFF2D595B16008711A2 /* BeRealClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeRealClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6BEF152D595B21008711A2 /* BeRealCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeRealCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6BEF1F2D595B21008711A2 /* BeRealCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeRealCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		AA6BEF272D595B21008711A2 /* Exceptions for "BeRealClone" folder in "BeRealClone" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = AA6BEEFE2D595B16008711A2 /* BeRealClone */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AA6BEF012D595B16008711A2 /* BeRealClone */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AA6BEF272D595B21008711A2 /* Exceptions for "BeRealClone" folder in "BeRealClone" target */,
+			);
+			path = BeRealClone;
+			sourceTree = "<group>";
+		};
+		AA6BEF182D595B21008711A2 /* BeRealCloneTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BeRealCloneTests;
+			sourceTree = "<group>";
+		};
+		AA6BEF222D595B21008711A2 /* BeRealCloneUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BeRealCloneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA6BEEFC2D595B16008711A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6BEF822D5969D9008711A2 /* ParseSwift in Frameworks */,
+				AA6BEF842D596BB2008711A2 /* AlamofireImage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6BEF122D595B21008711A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6BEF1C2D595B21008711A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA6BEEF62D595B16008711A2 = {
+			isa = PBXGroup;
+			children = (
+				AA6BEF012D595B16008711A2 /* BeRealClone */,
+				AA6BEF182D595B21008711A2 /* BeRealCloneTests */,
+				AA6BEF222D595B21008711A2 /* BeRealCloneUITests */,
+				AA6BEF002D595B16008711A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA6BEF002D595B16008711A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA6BEEFF2D595B16008711A2 /* BeRealClone.app */,
+				AA6BEF152D595B21008711A2 /* BeRealCloneTests.xctest */,
+				AA6BEF1F2D595B21008711A2 /* BeRealCloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA6BEEFE2D595B16008711A2 /* BeRealClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA6BEF282D595B21008711A2 /* Build configuration list for PBXNativeTarget "BeRealClone" */;
+			buildPhases = (
+				AA6BEEFB2D595B16008711A2 /* Sources */,
+				AA6BEEFC2D595B16008711A2 /* Frameworks */,
+				AA6BEEFD2D595B16008711A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AA6BEF012D595B16008711A2 /* BeRealClone */,
+			);
+			name = BeRealClone;
+			packageProductDependencies = (
+				AA6BEF812D5969D9008711A2 /* ParseSwift */,
+				AA6BEF832D596BB2008711A2 /* AlamofireImage */,
+			);
+			productName = BeRealClone;
+			productReference = AA6BEEFF2D595B16008711A2 /* BeRealClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA6BEF142D595B21008711A2 /* BeRealCloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA6BEF2D2D595B21008711A2 /* Build configuration list for PBXNativeTarget "BeRealCloneTests" */;
+			buildPhases = (
+				AA6BEF112D595B21008711A2 /* Sources */,
+				AA6BEF122D595B21008711A2 /* Frameworks */,
+				AA6BEF132D595B21008711A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA6BEF172D595B21008711A2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AA6BEF182D595B21008711A2 /* BeRealCloneTests */,
+			);
+			name = BeRealCloneTests;
+			packageProductDependencies = (
+			);
+			productName = BeRealCloneTests;
+			productReference = AA6BEF152D595B21008711A2 /* BeRealCloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA6BEF1E2D595B21008711A2 /* BeRealCloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA6BEF302D595B21008711A2 /* Build configuration list for PBXNativeTarget "BeRealCloneUITests" */;
+			buildPhases = (
+				AA6BEF1B2D595B21008711A2 /* Sources */,
+				AA6BEF1C2D595B21008711A2 /* Frameworks */,
+				AA6BEF1D2D595B21008711A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA6BEF212D595B21008711A2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AA6BEF222D595B21008711A2 /* BeRealCloneUITests */,
+			);
+			name = BeRealCloneUITests;
+			packageProductDependencies = (
+			);
+			productName = BeRealCloneUITests;
+			productReference = AA6BEF1F2D595B21008711A2 /* BeRealCloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA6BEEF72D595B16008711A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					AA6BEEFE2D595B16008711A2 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					AA6BEF142D595B21008711A2 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AA6BEEFE2D595B16008711A2;
+					};
+					AA6BEF1E2D595B21008711A2 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AA6BEEFE2D595B16008711A2;
+					};
+				};
+			};
+			buildConfigurationList = AA6BEEFA2D595B16008711A2 /* Build configuration list for PBXProject "BeRealClone" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA6BEEF62D595B16008711A2;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				AA6BEF5A2D5968D4008711A2 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				AA6BEF5B2D5968FD008711A2 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+				AA6BEF5C2D596939008711A2 /* XCRemoteSwiftPackageReference "Parse-Swift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AA6BEF002D595B16008711A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA6BEEFE2D595B16008711A2 /* BeRealClone */,
+				AA6BEF142D595B21008711A2 /* BeRealCloneTests */,
+				AA6BEF1E2D595B21008711A2 /* BeRealCloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA6BEEFD2D595B16008711A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6BEF132D595B21008711A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6BEF1D2D595B21008711A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA6BEEFB2D595B16008711A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6BEF112D595B21008711A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6BEF1B2D595B21008711A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA6BEF172D595B21008711A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA6BEEFE2D595B16008711A2 /* BeRealClone */;
+			targetProxy = AA6BEF162D595B21008711A2 /* PBXContainerItemProxy */;
+		};
+		AA6BEF212D595B21008711A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA6BEEFE2D595B16008711A2 /* BeRealClone */;
+			targetProxy = AA6BEF202D595B21008711A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA6BEF292D595B21008711A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BeRealClone/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "\"We need access to your photos for location data\"";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.josephnabaka.BeRealClone-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA6BEF2A2D595B21008711A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BeRealClone/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "\"We need access to your photos for location data\"";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.josephnabaka.BeRealClone-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA6BEF2B2D595B21008711A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA6BEF2C2D595B21008711A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA6BEF2E2D595B21008711A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.ah.BeRealCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeRealClone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BeRealClone";
+			};
+			name = Debug;
+		};
+		AA6BEF2F2D595B21008711A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.ah.BeRealCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeRealClone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BeRealClone";
+			};
+			name = Release;
+		};
+		AA6BEF312D595B21008711A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.ah.BeRealCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeRealClone;
+			};
+			name = Debug;
+		};
+		AA6BEF322D595B21008711A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.ah.BeRealCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeRealClone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA6BEEFA2D595B16008711A2 /* Build configuration list for PBXProject "BeRealClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6BEF2B2D595B21008711A2 /* Debug */,
+				AA6BEF2C2D595B21008711A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA6BEF282D595B21008711A2 /* Build configuration list for PBXNativeTarget "BeRealClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6BEF292D595B21008711A2 /* Debug */,
+				AA6BEF2A2D595B21008711A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA6BEF2D2D595B21008711A2 /* Build configuration list for PBXNativeTarget "BeRealCloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6BEF2E2D595B21008711A2 /* Debug */,
+				AA6BEF2F2D595B21008711A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA6BEF302D595B21008711A2 /* Build configuration list for PBXNativeTarget "BeRealCloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6BEF312D595B21008711A2 /* Debug */,
+				AA6BEF322D595B21008711A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AA6BEF5A2D5968D4008711A2 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+		AA6BEF5B2D5968FD008711A2 /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.3.0;
+			};
+		};
+		AA6BEF5C2D596939008711A2 /* XCRemoteSwiftPackageReference "Parse-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/parse-community/Parse-Swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.14.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AA6BEF812D5969D9008711A2 /* ParseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA6BEF5C2D596939008711A2 /* XCRemoteSwiftPackageReference "Parse-Swift" */;
+			productName = ParseSwift;
+		};
+		AA6BEF832D596BB2008711A2 /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA6BEF5B2D5968FD008711A2 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AA6BEEF72D595B16008711A2 /* Project object */;
+}
