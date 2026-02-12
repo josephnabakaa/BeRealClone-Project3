@@ -1,9 +1,3 @@
-Got it — you want actual green check emojis instead of GitHub checkboxes.
-
-Here’s your README rewritten using ✅ instead of - [x].
-
-You can paste this directly:
-
 Project 3 - BeReal Clone (Part 2)
 
 Submitted by: Joseph Nabaka
