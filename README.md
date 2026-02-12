@@ -1,3 +1,9 @@
+Got it — you want actual green check emojis instead of GitHub checkboxes.
+
+Here’s your README rewritten using ✅ instead of - [x].
+
+You can paste this directly:
+
 Project 3 - BeReal Clone (Part 2)
 
 Submitted by: Joseph Nabaka
@@ -10,31 +16,31 @@ Required Features
 
 The following required functionality is completed:
 
- User can launch camera to take photo instead of photo library
+✅ User can launch camera to take photo instead of photo library
 
- Users without iPhones to demo this feature can manually add unique photos to their simulator's Photos app
+✅ Users without iPhones to demo this feature can manually add unique photos to their simulator's Photos app
 
- Users can interact with posts via comments, comments include user data such as username and name
+✅ Users can interact with posts via comments, comments include user data such as username and name
 
- Posts have a time and location attached to them
+✅ Posts have a time and location attached to them
 
- Users are not able to see other users’ photos until they upload their own
+✅ Users are not able to see other users’ photos until they upload their own
 
 Optional Features
 
 The following optional features are implemented:
 
- User receives notification when it is time to post
+✅ User receives notification when it is time to post
 
 Additional Features
 
 The following additional features are implemented:
 
- 24-hour post filtering logic
+✅ 24-hour post filtering logic
 
- Persisted user session across app launches
+✅ Persisted user session across app launches
 
- Cleaned and improved UI for feed and comments
+✅ Cleaned and improved UI for feed and comments
 
 Video Walkthrough
 
@@ -44,21 +50,14 @@ Here is a walkthrough of implemented user stories:
 
 Notes
 
-One of the main challenges encountered was configuring camera permissions correctly in the Info.plist file to prevent the app from crashing when launching the camera. Additionally, handling photo metadata and extracting time and location data required careful optional handling and user permission management.
+One of the main challenges encountered was configuring camera permissions correctly in the Info.plist file to prevent the app from crashing when launching the camera.
 
-Implementing the 24-hour visibility restriction logic also required precise date comparisons and filtering posts based on the logged-in user’s last upload.
+Handling photo metadata and extracting time and location data required careful optional unwrapping and user permission management.
+
+Implementing the 24-hour visibility restriction logic required precise date comparisons and filtering posts based on the logged-in user’s last upload.
 
 License
+
 Copyright 2026 Joseph Nabaka
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+Licensed under the Apache License, Version 2.0.
